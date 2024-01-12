@@ -22,8 +22,8 @@ namespace FairTrade_API.Data
             {
                 Id = 1,
                 Name = "Candle Holder",
-                Description = "This decorative candleholder is handcrafted from Phoenician Glass, made from recycled bottles. Handwash only, holds 14oz. Dimensions: 3\"D x 4\"H. Made by fair trade artisans in West Bank.",
-                Image = "https://volunimages.blob.core.windows.net/volun/candleholders.jpeg",
+                Description = "This decorative candleholder is handcrafted from Phoenician Glass, made from recycled bottles. Handwash only, holds 14oz.",
+                Image = "https://volunimages.blob.core.windows.net/volun/candleholders.png",
                 Price = 34.99,
                 Category = "Home Decor",
                 SpecialTag = ""
@@ -31,8 +31,8 @@ namespace FairTrade_API.Data
             {
                 Id = 2,
                 Name = "Candle",
-                Description = "This candle bears the wonderful scent of lemon, jasmine, cedar and a hint of musk! Made by fair trade artisans. ",
-                Image = "https://volunimages.blob.core.windows.net/volun/candles.webp",
+                Description = "This candle bears the wonderful scent of lemon, jasmine, cedar and a hint of musk! Made by fair trade artisans.",
+                Image = "https://volunimages.blob.core.windows.net/volun/candles.png",
                 Price = 34.00,
                 Category = "Bath & Body",
                 SpecialTag = ""
@@ -41,7 +41,7 @@ namespace FairTrade_API.Data
                 Id = 3,
                 Name = "Dark Chocolate",
                 Description = "You will love this handscooped creation of Dark Chocolate 70% filled with whisky cream - contains alcohol!",
-                Image = "https://volunimages.blob.core.windows.net/volun/chocolate.jpg",
+                Image = "https://volunimages.blob.core.windows.net/volun/chocolate.png",
                 Price = 7.99,
                 Category = "Food & Beverage",
                 SpecialTag = "Best Seller"
@@ -49,8 +49,8 @@ namespace FairTrade_API.Data
             {
                 Id = 4,
                 Name = "Haidi Coffee Bean",
-                Description = "Honey Bear Reserve, an ode to the artisanal‘honey' movement, was the first of its kind born in Nicaragua. Exhibiting this artisanal fruit-curing, Honey Bear is truly a reserve coffee.",
-                Image = "https://volunimages.blob.core.windows.net/volun/coffee1.webp",
+                Description = "Honey Bear Reserve, an ode to the artisanal‘honey' movement, was the first of its kind born in Nicaragua.",
+                Image = "https://volunimages.blob.core.windows.net/volun/coffee.png",
                 Price = 22.00,
                 Category = "Food & Beverage",
                 SpecialTag = ""
@@ -58,8 +58,8 @@ namespace FairTrade_API.Data
             {
                 Id = 5,
                 Name = "Colombia Coffee",
-                Description = "No finer partner exists for a premium cigar than this coffee. It is grown in the mountains a stone’s throw from Nicaragua’s famous cigar rollers and is drunk by them every day.",
-                Image = "https://volunimages.blob.core.windows.net/volun/coffee2.webp",
+                Description = "It is grown in the mountains a stone’s throw from Nicaragua’s famous cigar rollers and is drunk by them every day.",
+                Image = "https://volunimages.blob.core.windows.net/volun/coffee1.png",
                 Price = 22.00,
                 Category = "Food & Beverage",
                 SpecialTag = "Top Rated"
@@ -67,8 +67,8 @@ namespace FairTrade_API.Data
             {
                 Id = 6,
                 Name = "Organic Lip Balm",
-                Description = "The original Zambeezi lip balm has a wild gingery lemongrass flavor with organically grown, Fair Trade ingredients you will totally fall for.",
-                Image = "https://volunimages.blob.core.windows.net/volun/lipbalm.webp",
+                Description = "The original Zambeezi lip balm has a wild gingery lemongrass flavor with organically grown, Fair Trade ingredients.",
+                Image = "https://volunimages.blob.core.windows.net/volun/lipbalm.png",
                 Price = 4.99,
                 Category = "Bath & Body",
                 SpecialTag = ""
@@ -77,7 +77,7 @@ namespace FairTrade_API.Data
                 Id = 7,
                 Name = "Lemon Chef's Soap",
                 Description = "This soap has a lemony scent and is great for hand soap or in the bath. Made fair trade in India.",
-                Image = "https://volunimages.blob.core.windows.net/volun/soap.jpg",
+                Image = "https://volunimages.blob.core.windows.net/volun/soap.png",
                 Price = 5.99,
                 Category = "Bath & Body",
                 SpecialTag = ""
@@ -85,8 +85,8 @@ namespace FairTrade_API.Data
             {
                 Id = 8,
                 Name = "Peppermint Detox Loose Leaf Tea",
-                Description = "Fair trade tea from small-scale farmers in Kenya is some of the world's most flavorful. Peppermint Detox is packed with antioxidants, whole leaf peppermint, and lemongrass to create this delicious and revitalizing blend.",
-                Image = "https://volunimages.blob.core.windows.net/volun/tea.jpeg",
+                Description = "Fair trade tea from small-scale farmers in Kenya is some of the world's most flavorful. Peppermint Detox packed with antioxidants,",
+                Image = "https://volunimages.blob.core.windows.net/volun/tea.png",
                 Price = 16.99,
                 Category = "Food & Beverage",
                 SpecialTag = ""
@@ -94,8 +94,8 @@ namespace FairTrade_API.Data
             {
                 Id = 9,
                 Name = "Kisii Natural Jug Vase",
-                Description = "These natural jug vases are a fair trade product handmade in Kenya. They are hand carved out of stone and then sanded until smooth. Since these vases show the natural colors of the stone, some color variations should be expected.",
-                Image = "https://volunimages.blob.core.windows.net/volun/vases.webp",
+                Description = "These natural jug vases are a fair trade product handmade in Kenya. They are hand carved out of stone and then sanded until smooth.",
+                Image = "https://volunimages.blob.core.windows.net/volun/vase.png",
                 Price = 29.00,
                 Category = "Home Decor",
                 SpecialTag = ""
@@ -103,8 +103,8 @@ namespace FairTrade_API.Data
             {
                 Id = 10,
                 Name = "Kantha Forest Wall Hanging",
-                Description = "This wall decoration features a forest of kantha and recycled sari fabric to make for a wonderful design. Made by fair trade artisans in India. Dimensions: 32\"Lx18.5\"H.",
-                Image = "https://volunimages.blob.core.windows.net/volun/wall-art.jpeg",
+                Description = "This wall decoration features a forest of kantha and recycled sari fabric to make for a wonderful design.",
+                Image = "https://volunimages.blob.core.windows.net/volun/wall-art.png",
                 Price = 89.99,
                 Category = "Home Decor",
                 SpecialTag = "Top Rated"

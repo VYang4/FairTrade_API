@@ -4,6 +4,7 @@ using FairTrade_API.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace FairTrade_API.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240112055800_8")]
+    partial class _8
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -154,7 +157,7 @@ namespace FairTrade_API.Migrations
                             Id = 1,
                             Category = "Home Decor",
                             Description = "This decorative candleholder is handcrafted from Phoenician Glass, made from recycled bottles. Handwash only, holds 14oz.",
-                            Image = "https://volunimages.blob.core.windows.net/volun/candleholders.png",
+                            Image = "https://volunimages.blob.core.windows.net/volun/candleholders.jpeg",
                             Name = "Candle Holder",
                             Price = 34.990000000000002,
                             SpecialTag = ""
@@ -224,7 +227,7 @@ namespace FairTrade_API.Migrations
                             Id = 8,
                             Category = "Food & Beverage",
                             Description = "Fair trade tea from small-scale farmers in Kenya is some of the world's most flavorful. Peppermint Detox packed with antioxidants,",
-                            Image = "https://volunimages.blob.core.windows.net/volun/tea.png",
+                            Image = "https://volunimages.blob.core.windows.net/volun/tea.jpeg",
                             Name = "Peppermint Detox Loose Leaf Tea",
                             Price = 16.989999999999998,
                             SpecialTag = ""
@@ -244,7 +247,7 @@ namespace FairTrade_API.Migrations
                             Id = 10,
                             Category = "Home Decor",
                             Description = "This wall decoration features a forest of kantha and recycled sari fabric to make for a wonderful design.",
-                            Image = "https://volunimages.blob.core.windows.net/volun/wall-art.png",
+                            Image = "https://volunimages.blob.core.windows.net/volun/wall-art.jpeg",
                             Name = "Kantha Forest Wall Hanging",
                             Price = 89.989999999999995,
                             SpecialTag = "Top Rated"
