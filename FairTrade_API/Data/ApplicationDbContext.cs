@@ -49,7 +49,7 @@ namespace FairTrade_API.Data
             {
                 Id = 4,
                 Name = "Haidi Coffee Bean",
-                Description = "Honey Bear Reserve, an ode to the artisanal‘honey' movement, was the first of its kind born in Nicaragua.",
+                Description = "Haidi Coffee - whole bean. Honey Bear Reserve, an ode to the artisanal‘honey' movement, was the first of its kind born in Nicaragua.",
                 Image = "https://volunimages.blob.core.windows.net/volun/coffee.png",
                 Price = 22.00,
                 Category = "Food & Beverage",
@@ -76,7 +76,7 @@ namespace FairTrade_API.Data
             {
                 Id = 7,
                 Name = "Lemon Chef's Soap",
-                Description = "This soap has a lemony scent and is great for hand soap or in the bath. Made fair trade in India.",
+                Description = "This soap has a lemony scent and is great for hand soap or in the bath. Handmade by fair trade artisans in India.",
                 Image = "https://volunimages.blob.core.windows.net/volun/soap.png",
                 Price = 5.99,
                 Category = "Bath & Body",
@@ -84,7 +84,7 @@ namespace FairTrade_API.Data
             }, new MenuItem
             {
                 Id = 8,
-                Name = "Peppermint Detox Loose Leaf Tea",
+                Name = "Peppermint Detox Tea",
                 Description = "Fair trade tea from small-scale farmers in Kenya is some of the world's most flavorful. Peppermint Detox packed with antioxidants,",
                 Image = "https://volunimages.blob.core.windows.net/volun/tea.png",
                 Price = 16.99,
@@ -103,7 +103,7 @@ namespace FairTrade_API.Data
             {
                 Id = 10,
                 Name = "Kantha Forest Wall Hanging",
-                Description = "This wall decoration features a forest of kantha and recycled sari fabric to make for a wonderful design.",
+                Description = "This wall decoration features a forest of kantha and recycled sari fabric to make for a wonderful design. Made by fair trade artisans in India.",
                 Image = "https://volunimages.blob.core.windows.net/volun/wall-art.png",
                 Price = 89.99,
                 Category = "Home Decor",
